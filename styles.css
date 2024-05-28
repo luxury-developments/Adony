@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* horizontally center content */
+    align-items: center; /* vertically center content */
+    height: 80vh; /* set height of body to viewport height */
+    font-family: 'CorporateFont', sans-serif; /* specify the font-family */
+    background-color: #141313; /* Change background color to black */
+}
+
+.container {
+    text-align: center; /* center-align content within container */
+}
+
+h4 {
+    margin-top: -100px; /* adjust top margin for text */
+    color: rgb(228, 215, 215); /* Change text color to white */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        height: auto; /* Change height to auto for smaller screens */
+    }
+    h4 {
+        margin-top: -50px; /* Adjust top margin for smaller screens */
+    }
+
+
+@media only screen and (max-width: 390px) {
+    /* Adjustments for even smaller screens */
+    body {
+        padding: 10px; /* Add padding for smaller screens */
+    }
+    h4 {
+        margin-top: -20px; /* Adjust top margin for even smaller screens */
+    }
